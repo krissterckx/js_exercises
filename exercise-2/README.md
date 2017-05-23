@@ -43,7 +43,7 @@ These are the available endpoints:
 
 Write a javascript snippet that fetches every name and print it to console.
 
-### Usage
+### Server
 
 To start the server, run from the root folder:
 

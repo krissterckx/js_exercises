@@ -1,4 +1,5 @@
-[
+const app = require('express')();
+const contacts = [
   {
     "name": "Lina Thompson",
     "address": "12742 Novella Extension",
@@ -90,3 +91,6 @@
     "avatarSrc": "https://s3.amazonaws.com/uifaces/faces/twitter/edkf/128.jpg"
   }
 ]
+
+app.get('/contacts', (req, res) => res.json(contacts));
+app.listen(8080, () => console.log('Server is running on http://localhost:8080'));

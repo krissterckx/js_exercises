@@ -45,11 +45,11 @@ Write a javascript snippet that fetches every name and print it to console.
 
 ### Usage
 
-To start the server run:
+To start the server, run from the root folder:
 
 ```
 npm install
-npm start
+npm run exercise2
 ```
 
 The server will be running on http://localhost:8080

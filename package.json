@@ -4,7 +4,8 @@
   "description": "## Exercise #2",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "exercise2": "node exercise-2/server.js",
+    "exercise3": "node exercise-3/server.js"
   },
   "author": "",
   "license": "ISC",

@@ -2,7 +2,9 @@
 
 ## Exercise #2
 
-Given the following endpoints:
+This exercise comes with a RESTful server that provides a list of names.
+
+These are the available endpoints:
 
 - GET /people
 
@@ -12,15 +14,15 @@ Given the following endpoints:
     data: [
       {
         id: '123',
-        _links: '/people/123',
+        _link: '/people/123',
       },
       {
         id: '124',
-        _links: '/people/124',
+        _link: '/people/124',
       },
       {
         id: '125',
-        _links: '/people/125',
+        _link: '/people/125',
       },
       ...
     ]
@@ -33,9 +35,21 @@ Given the following endpoints:
   ```
   {
     data: {
+      id: '123',
       name: 'John Smith'
     }
   }
   ```
 
-Fetch all people names and print them. You may use any library to fetch data.
+Write a javascript snippet that fetches every name and print it to console.
+
+### Usage
+
+To start the server run:
+
+```
+npm install
+npm start
+```
+
+The server will be running on http://localhost:8080
